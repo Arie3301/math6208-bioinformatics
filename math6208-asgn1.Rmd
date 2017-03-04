@@ -1,0 +1,25 @@
+---
+title: "Math6208 Adv. Math. Bioinformatics Assignment 1"
+author: "Arie Slobbe"
+date: "10 March 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Question 1
+
+The negative binomial distribution P(n) returns the probability of the mth heads being tossed during trial n.
+
+We set the parameters of P(n). 
+```{r}
+p = 0.5 # heads prob of fair coin
+m = 5 # terminate experiment after five heads are observed
+```
+
+```{r}
+data = c(5,5,10,15,25)
+hist(data, breaks=4:25+0.5)
+```
