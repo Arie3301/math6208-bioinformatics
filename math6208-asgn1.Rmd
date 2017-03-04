@@ -10,10 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Question 1
-
+# test 
 The negative binomial distribution P(n) returns the probability of the mth heads being tossed during trial n.
 
-We set the parameters of P(n). 
+We set the parameters of P(n).
 ```{r}
 p = 0.5 # heads prob of fair coin
 m = 5 # terminate experiment after five heads are observed
